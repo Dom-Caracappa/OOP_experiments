@@ -36,3 +36,8 @@ print(Student.fullname(stu_2))
 print(stu_3.dean_bucks)
 stu_3.apply_dean_bucks()
 print(stu_3.dean_bucks)
+
+print("Deenspursal Amount for All Students ", Student.deanspursal_amount)
+# instances of the class access the variable via the class
+print("Deenspursal Amount for", stu_1.fullname(), stu_1.deanspursal_amount)
+print("Deenspursal Amount for", stu_2.fullname(), stu_2.deanspursal_amount)
